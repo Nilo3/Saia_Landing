@@ -38,7 +38,7 @@ const Register = () => {
     >   
             <div className="flex  border-2 justify-center items-center text-center w-full h-full ">
             <div style={{border: '4px solid white', borderRadius: '10px'}} className="items-center text-center">                     
-            <form action="#" className="mt-4 mb-4 ml-24 mr-24" onSubmit={submitHandler} >
+            <form action="#" className="mt-4 mb-4 ml-12 mr-12" onSubmit={submitHandler} >
                 <h2 className="text-3xl mb-8 text-white  text-center landinginfo">REGISTRATE</h2>
                   <div className=" w-full flex  ">
                   <IoMdPerson className="fill-white" />
