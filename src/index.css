@@ -12,3 +12,15 @@
     }
 }
 
+@font-face {
+    font-family: 'BeaufortforLOL';
+    src: url('../src/assets/fonts/BeaufortforLOL-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  .landinginfo {
+    font-family: 'BeaufortforLOL', sans-serif;
+  }
+
+
