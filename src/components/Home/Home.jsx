@@ -18,7 +18,7 @@ const Home = () => {
             > 
             </div>
             <div className='bg-gray-800 p-12 flex items-center flex-col opacity-90' >
-                <h1 className=' landinginfo text-white text-center text-4xl ml-12'>INICIA TU ESTRATEGIA</h1>
+                <h1 className=' landinginfo text-white text-center text-4xl'>INICIA TU ESTRATEGIA</h1>
                 <h5 className='landinginfo text-yellow-500 text-bold text-center text-l '>SACA VENTAJA DESDE EL PICK</h5>
                 <p className='text-white landinginfo text-xl text-center  mt-12 '>Adéntrate en el mundo de League of Legends, donde aprenderás a contrarrestar a otros campeones y a dominar la Grieta del Invocador.</p>
                 <p className='text-white landinginfo text-xl text-center  mt-2'>Participa en nuestra trivia y gana premios increíbles.</p>
