@@ -38,30 +38,30 @@ const Register = () => {
     >   
             <div className="flex  border-2 justify-center items-center text-center w-full h-full ">
             <div style={{border: '4px solid white', borderRadius: '10px'}} className="items-center text-center">                     
-            <form action="#" className="mt-4 mb-4" onSubmit={submitHandler} >
+            <form action="#" className="mt-4 mb-4 ml-24 mr-24" onSubmit={submitHandler} >
                 <h2 className="text-3xl mb-8 text-white  text-center landinginfo">REGISTRATE</h2>
-                  <div className=" w-full  ">
+                  <div className=" w-full flex  ">
                   <IoMdPerson className="fill-white" />
-                  <input placeholder="Nombre" className="text-center mb-2" type="text" required onChange={(e) => setUser({...user, u_username: e.target.value})} />
+                  <input placeholder="Nombre" className="text-center mb-6 ml-4" type="text" required onChange={(e) => setUser({...user, u_username: e.target.value})} />
                   </div>
-                <div className="inputcontainer">
+                <div className="flex">
                 <MdEmail className="fill-white" />
-                <input className="text-center mb-2" placeholder="Email" type="email" required onChange={(e) => setUser({...user, u_email: e.target.value})} />
+                <input className="text-center mb-6 ml-4" placeholder="Email" type="email" required onChange={(e) => setUser({...user, u_email: e.target.value})} />
         r        </div>
-                        <div className="inputcontainer">
+                        <div className="flex">
                             <AiFillLock className="fill-white" />
-                            <input placeholder="Password" className="text-center mb-2" type="password" required onChange={(e) => setUser({...user, u_password: e.target.value})} />
+                            <input placeholder="Password" className="text-center ml-4 mb-6" type="password" required onChange={(e) => setUser({...user, u_password: e.target.value})} />
                         </div>
-                        <div className="inputcontainer">
+                        <div className="flex">
                             <MdOutlineMessage className="fill-white" />
-                            <input className='text-white text-center mb-2' placeholder="Codigo de Referido"  type="text" required onChange={(e) => setUser({...user, u_referralCode: e.target.value})} />
+                            <input className='text-white text-center mb-6 ml-4' placeholder="Codigo de Referido"  type="text" required onChange={(e) => setUser({...user, u_referralCode: e.target.value})} />
                         </div>
 
-                        <button type="submit" className="text-white text-2xl">Registrarse</button>
+                        <button type="submit" className="text-white text-2xl landinginfo mt-4">CREAR CUENTA</button>
                     </form>
                     <div>
-                        <div className="text-white text-l ">
-                            <p>Ya tengo Cuenta <a href="/login">Iniciar Sesion</a> </p>
+                        <div className="text-white text-l mt-12">
+                            <a href="/login" className="landinginfo">YA TENGO CUENTA</a> 
                         </div>
                     </div>
                 </div>
