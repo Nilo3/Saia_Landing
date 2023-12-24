@@ -1,6 +1,6 @@
 import React from 'react';
 import backgroundImage from "../../assets/back2.jpg";
-import LandingCards from '../LandingCards/LandingCards';
+import LandingCards from '../../components/LandingCards/LandingCards';
 import champions from '../../JSONS/champions.json'; // Importa los datos de los campeones
 
 
@@ -12,7 +12,6 @@ const Home = () => {
                 className='h-screen w-full bg-center md:bg-top ' 
                 style={{
                     backgroundImage: `url(${backgroundImage})`,
-
                     backgroundSize: 'cover',
                 }}
             > 

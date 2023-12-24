@@ -5,11 +5,13 @@
 @tailwind components;
 @tailwind utilities;
 
-
+* {
+  border: 0;
+}
 @layer base {
     html {
         font-family: 'Raleway', sans-serif
-    }
+    }    
 }
 
 @font-face {
