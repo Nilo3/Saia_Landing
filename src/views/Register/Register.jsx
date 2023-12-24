@@ -61,7 +61,7 @@ const Register = () => {
                     </form>
                     <div>
                         <div className="text-white text-l mt-12">
-                            <a href="/login" className="landinginfo mb-4">YA TENGO CUENTA</a> 
+                            <a href="/login" className="landinginfo mb-8">YA TENGO CUENTA</a> 
                         </div>
                     </div>
                 </div>
