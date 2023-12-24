@@ -1,6 +1,7 @@
 import { MdEmail } from "react-icons/md"
 import { AiFillLock } from "react-icons/ai"
 import { MdOutlineMessage } from "react-icons/md";
+import { IoMdPerson } from "react-icons/io";
 import { useState } from "react";
 import registerImage from "../../assets/login.jpg"
 
@@ -39,8 +40,9 @@ const Register = () => {
             <div style={{border: '4px solid white', borderRadius: '10px'}} className="items-center text-center">                     
             <form action="#" className="mt-4 mb-4" onSubmit={submitHandler} >
                 <h2 className="text-3xl mb-8 text-white  text-center landinginfo">REGISTRATE</h2>
-                  <div className=" w-full ">
-                    <input placeholder="Nombre" className="text-center mb-2" type="text" required onChange={(e) => setUser({...user, u_username: e.target.value})} />
+                  <div className=" w-full  ">
+                  <IoMdPerson className="fill-white" />
+                  <input placeholder="Nombre" className="text-center mb-2" type="text" required onChange={(e) => setUser({...user, u_username: e.target.value})} />
                   </div>
                 <div className="inputcontainer">
                 <MdEmail className="fill-white" />
