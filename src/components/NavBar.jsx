@@ -13,9 +13,9 @@ const [nav, setNav] = useState(false)
         <Link to="/">
             <img className='w-36 h-36 cursor-pointer' src={logo} alt="logoNavbar" />
         </Link>
-        <ul className='hidden md:flex'>
+        <ul className='hidden md:flex w-full h-full'>
             {links.map(({id,link}) => (
-                <li key={id} className='px-28 text-2xl cursor-pointer capitalize font-bold text-gray-300 hover:scale-105 duration-200'>
+                <li key={id} className='px-28 text-xl cursor-pointer  font-bold text-gray-300 hover:scale-105 duration-200'>
                 <Link to={link} >
                     {link}
                 </Link>   
