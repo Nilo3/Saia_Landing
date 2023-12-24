@@ -15,7 +15,7 @@ const [nav, setNav] = useState(false)
         </Link>
         <ul className='hidden md:flex'>
             {links.map(({id,link}) => (
-                <li key={id} className='px-28 text-2xl cursor-pointer capitalize font-bold text-gray-300 hover:scale-105 duration-200'>
+               <li key={id} className='px-4 md:px-4 lg:px-8 xl:px-24  text-2xl cursor-pointer capitalize font-bold text-gray-300 hover:scale-105 duration-200'>
                 <Link to={link} >
                     {link}
                 </Link>   
