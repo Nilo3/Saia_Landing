@@ -38,7 +38,7 @@ const Register = () => {
             <div className="flex  border-2 justify-center items-center text-center w-full h-full ">
             <div style={{border: '4px solid white', borderRadius: '10px'}} className="items-center text-center">                     
             <form action="#" className="mt-4 mb-4" onSubmit={submitHandler} >
-                <h2 className="text-2xl mb-8 text-white  text-center landinginfo">Registrate</h2>
+                <h2 className="text-3xl mb-8 text-white  text-center landinginfo">REGISTRATE</h2>
                   <div className=" w-full ">
                     <input placeholder="Nombre" className="text-center mb-2" type="text" required onChange={(e) => setUser({...user, u_username: e.target.value})} />
                   </div>
