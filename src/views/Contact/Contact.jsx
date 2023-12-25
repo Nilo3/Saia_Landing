@@ -36,7 +36,7 @@ const Contact = () => {
             <div style={{border: '4px solid white', borderRadius: '10px'}} className="items-center text-center mt-4 md:mt-8 bg-black opacity-80">                     
             <form action="#" className="mt-4 mb-4 ml-12 mr-12 flex flex-col" onSubmit={submitHandler} >
                 <h2 className="text-3xl mb-8 text-white  text-center landinginfo">CONTACTANOS</h2>
-                <h5 className=" landinginfo text-yellow-500 mb-12">Cualquier sugerencia que quieras dejarnos, recomendacion o queja, este es el lugar. </h5>
+                <h5 className=" landinginfo text-yellow-500 text-2xl mb-12">Cualquier sugerencia que quieras dejarnos, recomendacion o queja, este es el lugar. </h5>
                 <select className="text-center mb-6 ml-4 mt-4 landinginfo" required onChange={(e) => setUser({...user, u_email: e.target.value})}>
                 <option value="">Tipo de solicitud</option>
                 <option value="opcion1">Premio</option>
