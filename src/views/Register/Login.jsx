@@ -1,29 +1,23 @@
 import { MdEmail } from "react-icons/md"
 import { AiFillLock } from "react-icons/ai"
-import { MdOutlineMessage } from "react-icons/md";
-import { IoMdPerson } from "react-icons/io";
 import { useState } from "react";
 import registerImage from "../../assets/login.jpg"
 
 
-const Register = () => {
+const Login = () => {
 
     const [user, setUser] = useState({
-        u_username: '',
         u_email: '',
         u_password: '',
-        u_referralCode: '',
     })
 
-    const { u_email, u_username, u_password, u_referralCode } = user;
+    const { u_email, u_password } = user;
 
     const submitHandler = (e) => {
         e.preventDefault();
         const newUser = {
-            u_username,
             u_email,
             u_password,
-            u_referralCode
         }
         console.log(newUser);
     }
@@ -39,11 +33,7 @@ const Register = () => {
             <div className="flex  border-2 justify-center items-center text-center w-full h-full ">
             <div style={{border: '4px solid white', borderRadius: '10px'}} className="items-center text-center mt-4 md:mt-8">                     
             <form action="#" className="mt-4 mb-4 ml-12 mr-12" onSubmit={submitHandler} >
-                <h2 className="text-3xl mb-8 text-white  text-center landinginfo">REGISTRATE</h2>
-                  <div className=" w-full flex  ">
-                  <IoMdPerson className="fill-white" />
-                  <input placeholder="Nombre" className="text-center mb-6 ml-4" type="text" required onChange={(e) => setUser({...user, u_username: e.target.value})} />
-                  </div>
+                <h2 className="text-3xl mb-8 text-white  text-center landinginfo">INGRESAR</h2>
                 <div className="flex">
                 <MdEmail className="fill-white" />
                 <input className="text-center mb-6 ml-4" placeholder="Email" type="email" required onChange={(e) => setUser({...user, u_email: e.target.value})} />
@@ -52,16 +42,11 @@ const Register = () => {
                             <AiFillLock className="fill-white" />
                             <input placeholder="Password" className="text-center ml-4 mb-6" type="password" required onChange={(e) => setUser({...user, u_password: e.target.value})} />
                         </div>
-                        <div className="flex">
-                            <MdOutlineMessage className="fill-white" />
-                            <input className='text-white text-center mb-6 ml-4' placeholder="Codigo de Referido"  type="text" required onChange={(e) => setUser({...user, u_referralCode: e.target.value})} />
-                        </div>
-
-                        <button type="submit" className="text-white text-2xl landinginfo mt-4">CREAR CUENTA</button>
+                        <button type="submit" className="text-white text-2xl landinginfo mt-4">ENTRAR</button>
                     </form>
                     <div>
                         <div className="text-white text-l mt-12">
-                            <a href="/Ingresar" className="landinginfo mb-8">YA TENGO CUENTA</a> 
+                            <a href="/Registro" className="landinginfo mb-8">TODAVIA NO TENGO CUENTA</a> 
                         </div>
                     </div>
                 </div>
@@ -71,4 +56,4 @@ const Register = () => {
 }
 
 
-export default Register
+export default Login

@@ -1,0 +1,30 @@
+[
+    {
+      "id": "1",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlpsvXvfAs0jxeXLUYzVCJFrT6-EZrXZkbiYkWi-aGR0-Ongs6xLRHaubINh3oadExYaI&usqp=CAU",
+      "name": "Nilo",
+      "level": "5",
+      "xp": "8000"
+    },
+    {
+      "id": "2",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZorz74WwjOjOUlD7xS6_uUvZ74ErL6c1s5osoeuuYuaXVIuFe9EpBChbiB0m6udebQqs&usqp=CAU",
+      "name": "Fran",
+      "level": "4",
+      "xp": "7000"
+    },
+    {
+      "id": "3",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7CgdRoLOQxQiH7HlBACvLT7ZwIwI8NicIKiCMVLzPVo_4vUIhPCgUwztzT6ubeAJ6F5w&usqp=CAU",
+      "name": "Pecho",
+      "level": "3",
+      "xp": "6000"
+    },
+    {
+      "id": "4",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl5NwquM57uGPzFKi8ldAjVlC-o_uhgRg9mcv7JB-sWgWECJOI_Czt1X5n_uZUSL69s2M&usqp=CAUhttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl5NwquM57uGPzFKi8ldAjVlC-o_uhgRg9mcv7JB-sWgWECJOI_Czt1X5n_uZUSL69s2M&usqp=CAU",
+      "name": "Otro mas",
+      "level": "2",
+      "xp": "5000"
+    }
+  ]

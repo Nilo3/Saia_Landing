@@ -17,7 +17,7 @@ const links = [
     },
     {
       id: 5,
-      link: "Registro",
+      link: "Ingresar",
     }
   ];
 
