@@ -9,7 +9,7 @@ const NavBar = () => {
 const [nav, setNav] = useState(false)
 
   return (
-    <div className='flex justify-evenly items-center w-full h-24 px-4 text-white bg-gray-800 fixed opacity-90'>
+    <div className='flex justify-evenly items-center w-full h-24 px-4 text-white bg-gray-800 fixed opacity-90 z-30'>
         <Link to="/">
             <img className='h-36 w-36 cursor-pointer' src={logo} alt="logoNavbar" />
         </Link>
