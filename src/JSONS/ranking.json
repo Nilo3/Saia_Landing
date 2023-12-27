@@ -26,5 +26,19 @@
       "name": "Otro mas",
       "level": "2",
       "xp": "5000"
+    },
+    {
+      "id": "5",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl5NwquM57uGPzFKi8ldAjVlC-o_uhgRg9mcv7JB-sWgWECJOI_Czt1X5n_uZUSL69s2M&usqp=CAUhttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl5NwquM57uGPzFKi8ldAjVlC-o_uhgRg9mcv7JB-sWgWECJOI_Czt1X5n_uZUSL69s2M&usqp=CAU",
+      "name": "Sumamos",
+      "level": "2",
+      "xp": "4000"
+    },
+    {
+      "id": "5",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl5NwquM57uGPzFKi8ldAjVlC-o_uhgRg9mcv7JB-sWgWECJOI_Czt1X5n_uZUSL69s2M&usqp=CAUhttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl5NwquM57uGPzFKi8ldAjVlC-o_uhgRg9mcv7JB-sWgWECJOI_Czt1X5n_uZUSL69s2M&usqp=CAU",
+      "name": "Ultimo",
+      "level": "1",
+      "xp": "2000"
     }
   ]
