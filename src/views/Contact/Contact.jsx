@@ -33,7 +33,7 @@ const Contact = () => {
         }}        
     >   
             <div className="flex  border-2 justify-center items-center text-center w-full h-full ">
-            <div style={{border: '4px solid white', borderRadius: '10px'}} className="items-center text-center mt-4 md:mt-8 bg-black opacity-80">                     
+            <div style={{border: '4px solid white', borderRadius: '10px'}} className="items-center text-center mt-4 md:mt-8 bg-black opacity-75">                     
             <form action="#" className="mt-4 mb-4 ml-12 mr-12 flex flex-col" onSubmit={submitHandler} >
                 <h2 className="text-3xl mb-8 text-white  text-center landinginfo">CONTACTANOS</h2>
                 <h5 className=" landinginfo text-yellow-500 text-2xl mb-12">Cualquier sugerencia que quieras dejarnos, recomendacion o queja, este es el lugar. </h5>
