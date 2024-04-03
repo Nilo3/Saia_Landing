@@ -1,23 +1,18 @@
 const links = [
     {
       id: 1,
-      link: "Counters",
+      text: "Asociarse",
+      link: 'https://tally.so/r/mBdlK5'
     },
     {
       id: 2,
-      link: "Trivia",
+      text: "Prensa",
+      link: "Prensa",
     },
     {
       id: 3,
-      link: "Ranking",
-    },
-    {
-      id: 4,
-      link: "Contactanos",
-    },
-    {
-      id: 5,
-      link: "Ingresar",
+      text: "Equipo",
+      link: "Equipo",
     }
   ];
 
