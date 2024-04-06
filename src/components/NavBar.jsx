@@ -10,13 +10,13 @@ const NavBar = () => {
 const [nav, setNav] = useState(false)
 
   return (
-    <div className='flex justify-evenly items-center w-[100vw] md:w-full h-24 px-4 text-white bg-transparent fixed opacity-90 z-30 '>
-        <Link to="/" className='cursor-pointer mr-20'>
-            <SaiaLogo width={110} height={35} />
+    <div className='flex justify-evenly items-center w-[100vw] md:w-full h-24 px-4 text-white bg-transparent sticky opacity-90 z-30 '>
+        <Link to="/" className='cursor-pointer mr-60 lg:mr-[40vh] xl:mr-[50vh]'>
+            <SaiaLogo width={120} height={50} />
         </Link>
         <ul className='hidden md:flex'>
             {links.map(({id,link, text}) => (
-               <li key={id} className='md:px-4 lg:px-8 xl:px-12  text-2xl cursor-pointer capitalize font-bold text-gray-300 hover:scale-105 duration-200'>
+               <li key={id} className='md:px-4 ring-2 ring-inset ml-4 py-2 ring-white rounded-full lg:px-8 xl:px-6  text-md cursor-pointer capitalize font-bold text-gray-300 hover:bg-white hover:text-black'>
                 <Link to={link} >
                     {text}
                 </Link>   

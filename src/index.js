@@ -12,7 +12,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
  <BrowserRouter>
   <NavBar />
-  <div style={{paddingTop: '6rem'}}>
+  <div>
     <Routes>
       <Route path="/" element={<Home />}></Route>
       <Route path="/Equipo" element={<Team />}></Route>
