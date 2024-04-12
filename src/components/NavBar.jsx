@@ -8,7 +8,7 @@ import { SaiaLogo } from '../assets/saia-logo'
 const NavBar = () => {
 
 const [nav, setNav] = useState(false)
-
+console.log(nav);
   return (
     <div className='flex justify-evenly items-center w-[100vw] md:w-full h-24 px-4 text-white bg-transparent sticky opacity-90 z-30 '>
         <Link to="/" className='cursor-pointer mr-52 lg:mr-[40vh] xl:mr-[50vh]'>
@@ -43,3 +43,4 @@ const [nav, setNav] = useState(false)
 }
 
 export default NavBar
+

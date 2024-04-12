@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Banner = () => {
+    console.log("hola");
     return (
         <div className='h-full w-full flex flex-col bg-black'>
              <div className="ellipsis z-10"></div>
