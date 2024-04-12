@@ -25,6 +25,7 @@ const [nav, setNav] = useState(false)
 
         </ul>
         <div onClick={()=> setNav(!nav)} className='cursor-pointer pr-4 z-10 text-gray-500 md:hidden'>
+            console.log(saraza);
             {nav ? <FaTimes size={30} /> : <FaBars size={30} /> }
         </div>
         {nav && (
