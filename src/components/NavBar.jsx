@@ -15,11 +15,17 @@ const [nav, setNav] = useState(false)
             <SaiaLogo width={120} height={50} />
         </Link>
         <ul className='hidden md:flex'>
-            {links.map(({id,link, text}) => (
+            {links.map(({id, link, text}) => (
                <li key={id} className='md:px-4 ring-2 ring-inset ml-4 py-2 ring-white rounded-full lg:px-8 xl:px-6  text-md cursor-pointer capitalize font-bold text-gray-300 hover:bg-white hover:text-black'>
-                <Link to={link} >
-                    {text}
-                </Link>   
+                {text === "Asociarse" ? (
+                    <a href={link} target="_blank" rel="noopener noreferrer">
+                        {text}
+                    </a>
+                ) : (
+                    <Link to={link}>
+                        {text}
+                    </Link>
+                )}
                 </li>
             ))}
 
@@ -29,11 +35,17 @@ const [nav, setNav] = useState(false)
         </div>
         {nav && (
             <ul className='flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-500'>
-            {links.map(({id,link, text}) => (
+            {links.map(({id, link, text}) => (
                 <li key={id} className='px-4 cursor-pointer capitalize py-6 text-4xl'>
-                    <Link onClick={()=> setNav(!nav)} to={link} smooth="true" duration={500}>
-                    {text}
-                    </Link>
+                    {text === "Asociarse" ? (
+                        <a href={link} target="_blank" rel="noopener noreferrer" onClick={()=> setNav(!nav)}>
+                            {text}
+                        </a>
+                    ) : (
+                        <Link onClick={()=> setNav(!nav)} to={link} smooth="true" duration={500}>
+                            {text}
+                        </Link>
+                    )}
                 </li>
                  ))}
             </ul>
