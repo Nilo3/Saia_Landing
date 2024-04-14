@@ -3,7 +3,7 @@ import dossierPdf from "../../assets/dossier_saia.pdf";
 
 const Press = () => {
     return (
-        <div className="w-full h-[50vh] flex flex-col lg:flex-row justify-center items-center">
+        <div className="w-full h-[70vh] flex flex-col lg:flex-row justify-center items-center">
             <div className="ellipsis" />
             <div>
                 <img src={image} alt="dossier" className="w-48 h-64 md:w-60 md:h-80 2xl:w-[300px] 2xl:h-[400px] rounded-2xl mb-4 border-2 border-white" />

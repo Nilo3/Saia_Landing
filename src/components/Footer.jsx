@@ -58,13 +58,7 @@ const Footer = () => {
                 <h3 className="text-sm font-semibold leading-6 text-gray-900">Nosotros</h3>
                 <ul className="mt-6 space-y-4">
                   <li>
-                    <div className="text-sm leading-6 text-gray-600 hover:text-gray-900">Consejo de Administración</div>
-                  </li>
-                  <li>
-                    <div  className="text-sm leading-6 text-gray-600 hover:text-gray-900">Estatuto</div>
-                  </li>
-                  <li>
-                    <div  className="text-sm leading-6 text-gray-600 hover:text-gray-900">Equipo</div>
+                  <a href="/equipo" className="text-sm leading-6 text-gray-600 hover:text-gray-900">Equipo</a>
                   </li>
 
                 </ul>
@@ -72,43 +66,19 @@ const Footer = () => {
               <div className="mt-10 md:mt-0">
                 <h3 className="text-sm font-semibold leading-6 text-gray-900">Comunidad</h3>
                 <ul className="mt-6 space-y-4">
-                  <li>
-                    <a href="https://tally.so/r/mBdlK5" className="text-sm leading-6 text-gray-600 hover:text-gray-900">Ser parte</a>
-                  </li>
-                  <li>
-                    <div className="text-sm leading-6 text-gray-600 hover:text-gray-900">Eventos</div>
-                  </li>
-                  <li>
-                    <div className="text-sm leading-6 text-gray-600 hover:text-gray-900">Código de conducta</div>
+                <li>
+                    <a href="https://tally.so/r/mBdlK5" target="_blank" rel="noopener noreferrer" className="text-sm leading-6 text-gray-600 hover:text-gray-900">Ser parte</a>
                   </li>
                 </ul>
               </div>
             </div>
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
-                <h3 className="text-sm font-semibold leading-6 text-gray-900">Servicios</h3>
+                <h3 className="text-sm font-semibold leading-6 text-gray-900">Comunicaciones</h3>
                 <ul className="mt-6 space-y-4">
                   <li>
-                    <div  className="text-sm leading-6 text-gray-600 hover:text-gray-900">Charlas y Workshops</div>
+                    <a href="/prensa" className="text-sm leading-6 text-gray-600 hover:text-gray-900">Prensa</a>
                   </li>
-                  <li>
-                    <div className="text-sm leading-6 text-gray-600 hover:text-gray-900">SAIA Cloud</div>
-                  </li>
-                  <li>
-                    <div className="text-sm leading-6 text-gray-600 hover:text-gray-900">Consultoría</div>
-                  </li>
-                </ul>
-              </div>
-              <div className="mt-10 md:mt-0">
-                <h3 className="text-sm font-semibold leading-6 text-gray-900">Profesionales</h3>
-                <ul className="mt-6 space-y-4">
-                  <li>
-                    <div className="text-sm leading-6 text-gray-600 hover:text-gray-900">Unidad de vinculación tecnológica</div>
-                  </li>
-                  <li>
-                    <div className="text-sm leading-6 text-gray-600 hover:text-gray-900">Ofrecer servicios</div>
-                  </li>
-
                 </ul>
               </div>
             </div>
