@@ -16,7 +16,7 @@ const Banner = () => {
                 <div className='z-20 px-2'>
                 <iframe
                     className="rounded-2xl border-2 border-white w-80 h-60 mt-12 md:mt-0 md:w-[360px] md:h-[250px] lg:w-[600px] lg:h-[350px] lg:-mt-24 lg:ml-24 2xl:h-[350px] 2xl:w-[700px] 2xl:mr-24"
-                    src="https://www.youtube.com/embed/iNbv-zkNON8?si=mxyml1euV4dj2G__"
+                    src="https://www.youtube.com/embed/P1G4ERdV0jk?si=7OXTtOSyVs9GEDSB"
                     title="YouTube video player"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
