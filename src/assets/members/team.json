@@ -89,6 +89,12 @@
         "nombre": "Francisco Ghelfi",
         "posicion": "Vinculación Tecnológica",
         "foto": "https://r2.easyimg.io/cni4efnzm/foto_fran_ghelfi.png"
+      },
+      {
+        "id": 16,
+        "nombre": "Juan Martín Rossi",
+        "posicion": "Jefe de Consultores y Jefe Regional de Desarrollo de Córdoba",
+        "foto": "https://r2.easyimg.io/2govwixtt/foto_juanma.png"
       }
     ]
   }
