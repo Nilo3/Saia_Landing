@@ -36,6 +36,10 @@
       opacity: 0.8;
       z-index: -1;
     }
+
+    .gradient-bg {
+      background: radial-gradient(circle at bottom,  rgba(172, 127, 244, 0.5) 0%, #000000 30%) ;
+  }
     
     .ellipsis.ellipsis-purple {
       top: 1350px;

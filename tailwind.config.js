@@ -6,6 +6,10 @@ module.exports = {
       borderWidth: {
         '16': '16px',
       },
+      screens: {
+        '3xl': '1920px',
+        '4k': '3840px', 
+      },
       colors: {
         gold: '#fee39d',
       },
@@ -20,7 +24,7 @@ module.exports = {
   },
   variants: {
     extend: {
-      backdropFilter: ['responsive'], // or other variants like ['hover', 'focus']
+      backdropFilter: ['responsive'],
     },
   },
   plugins: [
