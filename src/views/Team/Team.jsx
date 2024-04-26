@@ -7,7 +7,7 @@ const Team = () => {
       <div className="opacity-10 ellipsis z-10"></div>
       <div className="ellipsis opacity-30 ellipsis-purple z-10"></div>
       <div className="ellipsis opacity-30 ellipsis-blue z-10" />
-      <div className="ellipsis opacity-30 ellipsis-yellow z-10" />
+      <div className="ellipsis opacity-30 ellipsis-yellow z-10 md:hidden" />
       <div className="bg-zinc-900 w-[50%] md:w-[30%] lg:w-[10%] md:text-xl xl:text-3xl mx-auto rounded-t-2xl z-20 mt-10 text-white text-xl font-bold flex justify-center items-center h-10 lg:h-16">
         Equipo
       </div>
