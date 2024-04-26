@@ -8,7 +8,7 @@ module.exports = {
       },
       screens: {
         '3xl': '1920px',
-        '4k': '3840px', 
+        'four-k': '2560px', 
       },
       colors: {
         gold: '#fee39d',
@@ -20,7 +20,7 @@ module.exports = {
     },
     fontFamily : {
       signature: ["Great Vibes"],
-    }
+    },
   },
   variants: {
     extend: {
