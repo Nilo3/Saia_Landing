@@ -43,10 +43,32 @@
     
     .ellipsis.ellipsis-purple {
       top: 1350px;
-      left: -100px;
+      left: -250px;
       background: radial-gradient(
         50% 50% at 50% 50%,
         rgba(172, 127, 244, 0.5) 0%,
+        rgba(21, 25, 52, 0) 100%
+      );
+      transform: rotate(-5deg);
+    }
+
+    .ellipsis.ellipsis-blue {
+      top: 2350px;
+      left: 250px;
+      background: radial-gradient(
+        50% 50% at 50% 50%,
+        rgba(20, 105, 144, 0.5) 0%,
+        rgba(21, 25, 52, 0) 100%
+      );
+      transform: rotate(-5deg);
+    }
+
+    .ellipsis.ellipsis-yellow {
+      top: 4550px;
+      left: 250px;
+      background: radial-gradient(
+        50% 50% at 50% 50%,
+        rgba(175, 146, 38, 0.8) 0%,
         rgba(21, 25, 52, 0) 100%
       );
       transform: rotate(-5deg);
